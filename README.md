@@ -21,7 +21,7 @@ https://www.bilibili.com/video/BV1tp4y1t7Fx
     ├── app.wxss
     ├── project.config.json
     ├── qqmap-wx-jssdk.js
-## 🐱‍🏍实验结果
+## 🐱‍🏍项目效果
 <p float="center">
   <img src="readme/1.png" width="400" />
   <img src="readme/2.png" width="400" /> 
