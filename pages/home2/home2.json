@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "未来城导航系统",
+  "enablePullDownRefresh": true ,
+  "backgroundTextStyle": "dark" 
+}

@@ -1,0 +1,182 @@
+/* pages/home/home.wxss */
+
+.index_other{
+  margin-top: 10rpx;
+  height: 150rpx;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+
+.other_element{
+  flex-direction: column;
+  width: 25%;
+}
+
+.other_element_icon{
+  width: 40%;
+  height: 80rpx;
+  margin-left: 30%;
+}
+
+.other_element_text{
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.framework{
+  border: 1rpx solid #b3b3b3;
+  width: 700rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.input{
+  color: #b3b3b3;
+  border: none;
+  border-radius: 10rpx;
+  width: 60vw;
+  height: 6vh;
+  text-indent:10rpx;
+  margin-left: 10rpx;
+}
+.line{
+  width: 3rpx;
+  height: 50rpx;
+  background-color: #b6b6b6;
+}
+.search-text{
+  color: #bdbdbd;
+  width: 80rpx;
+  height: 30rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+  margin-left: 30rpx;
+}
+.search-image{
+  width: 40rpx;
+  height:40rpx;
+  margin-right: 12rpx;
+
+}
+
+
+/* pages/map/map.wxss */
+
+.building-item {
+  height: 50px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.top-swich {
+  background-color: #079df2;
+  height: 6vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.top-swich-btn {
+  background-color: none;
+  letter-spacing: 3rpx;
+  height: 65rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.active {
+  border-bottom: solid white;
+  height: 50rpx;
+  display: inline-block;
+}
+
+button {
+  font-size: 26rpx;
+  height: 6vh;
+}
+
+.img-view {
+  height: 100%;
+  display: flex;
+}
+
+.img {
+  width: 85%;
+  height: 100%;
+  display: flex;
+}
+
+.img image {
+  width: 60px;
+  height: 90%;
+  margin: auto 7rpx;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.itemName {
+  margin: 0 20rpx;
+  font-size: 32rpx;
+}
+
+.itemFloor {
+  margin: 0 20rpx;
+  font-size: 28rpx;
+  color: #555;
+}
+
+.text {
+  margin: auto 15px;
+  width: 13%;
+}
+
+.text image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.controls {
+  position: relative;
+  top: 65%;
+  left: 85%;
+  /* display: flex; */
+}
+
+.controls .img {
+  margin-top: 5px;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.full {
+  top: 82%;
+}
+.model{
+  width: 100%;
+}
+.model-name{
+  text-align: center;
+  margin-top: 10rpx;
+}

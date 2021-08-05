@@ -1,0 +1,138 @@
+.top{
+  position: fixed;
+  top:0;
+  height: 6vh;
+  width: 100%;
+  line-height: 80rpx;
+  background-color: #fff;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: black;
+  box-shadow: 16rpx -4rpx 30rpx rgb(209,204,204)
+}
+
+
+.send{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  line-height: 280rpx;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  position: fixed;
+  width: 100%;
+  bottom: 20rpx;
+}
+
+.text{
+  float:left;
+  width: 100%;
+  height: 80rpx;
+  border-radius: 20px;
+  font-size: 30rpx;
+  background-color: rgb(209,204,204);
+  text-align: center;
+  color: #505050;
+}
+
+.btn{
+margin-top: 5rpx;
+  height: 70rpx;
+  width: 10%;
+  background: rgba(49, 120, 228, 0.88);
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 36rpx;
+}
+
+.btn-d{
+  float: left;
+  margin-left: 16rpx;
+  height: 66rpx;
+  widows: 120rpx;
+  background: rgb(0,0,0);
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #fff;
+  border-radius: 36rpx;
+}
+
+.que{
+  margin-top:7vh;
+  width: 98%;
+  margin-left:1%;
+  line-height: 64rpx;
+  margin-bottom: 13vh;
+}
+
+.robort{
+  width: 65%;
+  margin-top: 0;
+}
+
+.robort image{
+  margin-bottom: -120rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius:14rpx;
+}
+
+.robort text{
+  margin-left: 8rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  color:black;
+  margin-bottom: -32rpx;
+}
+
+.isay{
+  margin-top:10rpx;
+}
+
+.isay image{
+  float:right;
+  margin-right: -86vw;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 14rpx;
+}
+
+.isay text{
+  margin-right: 10rpx;
+  float: right;
+  border-radius: 16rpx;
+  font-size: 28rpx;
+  color:black;
+}
+
+.con{
+  margin-top:1%;
+  margin-left: 1%;
+  width:98%;
+}
+
+.l-i{
+  width: 60rpx;
+}
+
+.l-t{
+  margin-top:30rpx;
+  margin-left: 70rpx;
+  border-radius: 30rpx;
+}
+.r-t{
+  float:right;
+  margin-right: 80rpx;
+  border-radius: 30rpx;
+}
+
+.r-i{
+  width: 60rpx;
+}

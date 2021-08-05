@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  },
+  "navigationBarTitleText": "南望山导航系统",
+  "enablePullDownRefresh": true ,
+  "backgroundTextStyle": "dark" 
+}

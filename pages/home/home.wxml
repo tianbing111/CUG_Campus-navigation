@@ -1,0 +1,72 @@
+
+<view class='framework'>
+   <view class='input-position'>
+      <image src='https://mmbiz.qpic.cn/mmbiz_png/JZxArCU6LRribpVmzlUNGvYVU4jojoICBY1u3ic8lBGbs3sC86DgZy2wwicU5yMtUiagyicNcibu2mP8ibaVyBEysUy5A/0?wx_fmt=png' class='search-image'></image>
+       <input class="input" placeholder="搜索 周边 地址" placeholder-style="color:#bdbdbd;" bindinput="inputplace" />
+       <view class='line'></view>
+       <view class='search-text' bindtap="nearby_search">搜索</view>
+   </view>
+</view>
+<view class="index_other">
+   <view class="other_element" bindtap="tripplace" >
+     <image class="other_element_icon" src="../../image/trip.png"></image>
+     <view class="other_element_text">游在地大</view>
+   </view>
+   <view class="other_element" bindtap="studyplace">
+     <image class="other_element_icon" src="../../image/study.png"></image>
+     <view class="other_element_text">学在地大</view>
+   </view>
+   <view class="other_element" bindtap="eatplace">
+     <image class="other_element_icon" src="../../image/eat.png"></image>
+     <view class="other_element_text">吃在地大</view>
+   </view>
+   <view class="other_element" bindtap="runplace">
+     <image class="other_element_icon" src="../../image/running.png"></image>
+     <view class="other_element_text">运动地大</view>
+   </view>
+ </view>
+  <view class="index_other">
+   <view class="other_element" bindtap="tranplace">
+     <image class="other_element_icon" src="../../image/transform.png"></image>
+     <view class="other_element_text">交通服务</view>
+   </view>
+   <view class="other_element" bindtap="lifeplace">
+     <image class="other_element_icon" src="../../image/life.png"></image>
+     <view class="other_element_text">生活服务</view>
+   </view>
+   <view class="other_element" bindtap="adminplace">
+     <image class="other_element_icon" src="../../image/administrative.png"></image>
+     <view class="other_element_text">行政大楼</view>
+   </view>
+   <view class="other_element" bindtap="dorplace">
+     <image class="other_element_icon" src="../../image/dormitory.png"></image>
+     <view class="other_element_text">学生宿舍</view>
+   </view>
+ </view>
+<map 
+id="myMap"
+style="width:100%;height:1000rpx"
+markers="{{markers}}"
+data-markers="{{markers}}"
+scale="17"
+show-compass="true"
+enable-rotate="true"
+enable-building="true"
+bindmarkertap="onPointTap"
+bindlabeltap="onPointTap"
+subkey="LM6BZ-WVQKQ-BFH5Z-GJLKI-4YHNK-NAFM5"
+layer-style="2"
+latitude="{{markers[0].latitude}}" longitude="{{markers[0].longitude}}"
+></map>
+
+<!--弹出框-->
+<modal class="model" hidden="{{hidden}}" confirm-text="确定" cancel-text="取消" bindconfirm="modalconfirm" bindcancel="modalcancel" title="前往此处" style="width:80%">
+  <view class="model-img">
+    <image style="width:565rpx;height:300rpx" src="https://mmbiz.qpic.cn/mmbiz_png/JZxArCU6LRqEceyJTIetvRDXXfK5AsGulNDrG2TW1rDybw5ibOOIypHQDgY5vlpSENo9HBpibGWmr6sNEicgtiaXyw/0?wx_fmt=png"></image>
+  </view>
+  <view class="model-name">{{modalname}}</view>
+  <view class="model-name">{{modaladdress}}</view>
+</modal>
+<!--弹出框结束-->
+
+
